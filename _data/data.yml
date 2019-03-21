@@ -1,0 +1,88 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Yuval Twig
+    tagline: 
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    linkedin: yuvaltwig
+    
+    overview_title: 
+    overview_body: Engineering lead, Product manager, founder of @EyeTwig, works @Essential 
+
+
+
+experiences:
+    - role: Engineering Manager
+      time: 2018 - Present
+      company: Essential Products, Palo Alto
+      details: |
+        Essential is a unique customer electronics startup, founded by Mr. Andy Rubin.
+        At Essential, I mostly having fun, working with smart people, and also lead the cloud team.
+
+    - role: Senior Product Manager
+      time: 2015 - 2018
+      company: Jive Software, Palo Alto
+      details: |
+        Switched to product to help grow Jive's iPaaS, and help customers build new integrations with Jive.
+
+    - role: Senior Manager Engineering
+      time: 2013 - 2015
+      company: Jive Software, Israel
+      details: |
+        Joined Jive through the acquisition of StreamOnce, and drove the integration of StreamOnce technology into Jive.
+        Created the Jive iPaaS, an integration platform as a service, to allow customers & partners to easily extend Jive's functionality.
+        
+    - role: Team lead
+      time: 2011 - 2013
+      company: VMware, Israel
+      details: |
+        Joined to help integrate Digital Fuel, a startup that was just aquired, into the VMware protfolio.
+
+projects:
+    title: Side Projects
+    intro: >
+      I'm passionate about side projects, and always have at least one going on.  
+      At the very least i enjoy learning new technologies, and maybe, just maybe 
+      one of these projects will become somthing bigger?
+
+    assignments:
+      - title: EyeTwig
+        link: "https://www.eyetwig.com"
+        tagline: "Founded EyeTwig, a revolutionary product that enabling users to control their computer with just head movements, using commodity hardware"
+
+      - title: Torrous
+        link: "https://www.torrous.com"
+        tagline: "Realtime detection of toys price drops, across the leading ecommerce sites"
+
+      - title: Sublicious
+        link: "http://www.sublicio.us"
+        tagline: "An Automatic subtitle downloader and media organizer targeted to the Hebrew language"
+
+publications:
+    title: Links
+
+    papers:
+      - title: Determining the impact of elements in a technology system
+        authors: US patent published as part of my work at HP.
+        link: https://patents.google.com/patent/US20120053922A1
+
+      - title: Emerging Technology Preview
+        authors: First preview of the Jive integration platform as a service i've help to create
+        link: https://community.jivesoftware.com/videos/8753
+
+      - title: Interviewing to the morning show about EyeTwig
+        authors: The Channel 10 morning show (Hebrew)
+        link: https://youtu.be/rqb05Eq-I9A
+
+
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -1,0 +1,16 @@
+{% assign sidebar = site.data.data.sidebar %}
+<div class="remove-container container-block">
+  
+  <ul class="list-unstyled interests-list">
+    <a target="_blank" href="https://www.youtube.com/watch?v=Jnmj1dXDbNk">
+      <li>{{ sidebar.overview_body }}</li>
+      
+         {% if sidebar.linkedin %}
+    <li class="linkedin" style="padding-top:4px;">
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </li>
+    {% endif %}
+
+    </a>
+  </ul>
+</div><!--//About-->
